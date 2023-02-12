@@ -1,0 +1,90 @@
+.grid-cell {
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 12px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 46px 46px 46px 46px 46px 46px 46px 46px 46px 46px;
+	grid-template-rows: 46px 46px 46px 46px 46px 46px 46px 46px 46px 46px;
+    padding: 10px;
+}
+
+#game-container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+/*carrier*/
+.ship5-1 {
+	background: url('./img/carrier.png');
+	background-position-x: 234px;
+}
+.ship5-2 {
+	background: url('./img/carrier.png');
+	background-position-x: 186px;
+}
+.ship5-3 {
+	background: url('./img/carrier.png');
+	background-position-x: 132px;
+}
+.ship5-4 {
+	background: url('./img/carrier.png');
+	background-position-x: 88px;
+}
+.ship5-5 {
+	background: url('./img/carrier.png');
+	background-position-x: 44px;
+}
+/*battleship*/
+.ship4-1 {
+	background: url('./img/battleship.png');
+	background-position-x: 1px;
+}
+.ship4-2 {
+	background: url('./img/battleship.png');
+	background-position-x: 132px;
+}
+.ship4-3 {
+	background: url('./img/battleship.png');
+	background-position-x: 92px;
+}
+.ship4-4 {
+	background: url('./img/battleship.png');
+	background-position-x: 46px;
+}
+
+/*cruiser*/
+.ship3-3 {
+	background: url('./img/cruiser.png');
+	background-position-x: 44px;
+}
+.ship3-2 {
+	background: url('./img/cruiser.png');
+	background-position-x: 84px;
+}
+.ship3-1 {
+	background: url('./img/cruiser.png');
+	background-position-x: -4px;
+}
+
+.ship2-2 {
+	background: url('./img/patrol-boat.png');
+	background-position-x: 42px;
+}
+.ship2-1 {
+	background: url('./img/patrol-boat.png');
+	background-position-x: 1-px;
+}
+
+.ship-v {
+	transform: rotate(90deg);
+}
+
+.ship-l {
+	transform: rotateX(0deg) rotateY(180deg);
+}
+
+.ship-u {
+	transform: rotate(-90deg);
+}
